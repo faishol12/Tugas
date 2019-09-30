@@ -1,0 +1,64 @@
+*{
+	font-family:comic sans ms, arial;
+	margin:auto;
+}
+table{
+	border: 1px black solid;
+}
+td {padding:5px; border-bottom:1px solid black; border-right:1px solid black; font-size:14px;background: #ffffff;
+}
+th.hari {color:white; text-align:center; width:64px; padding:12px 6px; border-bottom:1px solid #CCC; border-top:1px solid #CCC; border-right:1px solid #CCC; background: #ffffff;
+        background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	margin:5px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #333;
+}
+.header{
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:50px;
+	background-color:lime;
+	float:center;
+	text-align:center;
+}
+.bulan1, .bulan2, .bulan3,
+.bulan4, .bulan5, .bulan6,
+.bulan7, .bulan8, .bulan9,
+.bulan10, .bulan11, .bulan12{
+	padding : 10px;
+	height:auto;
+	width:31.7%;
+	float: left;
+	text-align:center;
+}
+.content{
+	margin-left:50px;
+	margin-right:50px;
+	background-color:white;
+}
+.holiday{
+	margin-right : 10px;
+	margin-left : 10px;
+	margin-top : 5px;
+	margin-bottom : 15px;
+	clear:both;
+	background-color:#F0F0F0;
+}
