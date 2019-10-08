@@ -1,0 +1,36 @@
+<form name="myForm" action="main.php" method="post">
+	<div class="field">
+		<label for="surname">Surname</label> <br/>
+		<input type="text" name="surname" id="surname"
+		value="<?php if (isset($_POST['surname'])) echo htmlspecialchars($_POST['surname'])?>"/> <br/>
+		<span style='color:red'> <?php if (isset($errors['surname'])) echo htmlspecialchars($errors['surname'])?> </span>
+	</div>
+	<div class="field">
+		<label for="email">Email address</label> <br/>
+		<input type="text" name="email" id="email"
+		value="<?php if (isset($_POST['email'])) echo htmlspecialchars($_POST['email'])?>"/> <br/>
+		<span style='color:red'> <?php if (isset($errors['email'])) echo htmlspecialchars($errors['email'])?> </span>
+	</div>
+	<div class="field">
+		<label for="mobile">Mobile number</label> <br/>
+		<input type="text" name="mobile" id="mobile"
+		value="<?php if (isset($_POST['mobile'])) echo htmlspecialchars($_POST['mobile'])?>"/> <br/>
+		<span style='color:red'> <?php if (isset($errors['mobile'])) echo htmlspecialchars($errors['mobile'])?> </span>
+	</div>
+	<div class="field">
+		<label for="pass">Password</label> <br/>
+		<input type="password" name="pass" id="pass"
+		value="<?php if (isset($_POST['pass'])) echo htmlspecialchars($_POST['pass'])?>"/> <br/>
+		<span style='color:red'> <?php if (isset($errors['pass'])) echo htmlspecialchars($errors['pass'])?> </span>
+	</div>
+	<div class="field">
+		<label for="cpass">Confirm Password</label> <br/>
+		<input type="password" name="cpass" id="cpass"
+		value="<?php if (isset($_POST['cpass'])) echo htmlspecialchars($_POST['cpass'])?>"/> <br/>
+		<span style='color:red'> <?php if (isset($errors['cpass'])) echo htmlspecialchars($errors['cpass'])?> </span>
+	</div>
+	<div class="field">
+		<input type="submit" name="submit" value="Submit" class="button"/>
+		<input type="reset" name="reset" value="Reset" class="button"/>
+	</div>
+</form>

@@ -1,0 +1,46 @@
+*{ 
+	font-family: Bodoni Bd BT;
+}
+.header, .footer{
+	text-align:center;
+	clear:both;
+}
+li {
+    float: left;
+}
+li a {
+	/*pengaturan tombol navbar*/
+    display: block; /*biar yg aktif jadi sekotak*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	margin:5px;
+    text-decoration: none;
+}
+.content input[type=text], input[type=password]{
+	/*Pengaturan kotak isian*/
+	width:100%;
+}
+.button{
+	/*Pengaturan tombol*/
+	margin-top:15px;
+	width:49.5%;
+	text-align:center;
+	color:white;
+	background-color:#008CBA;
+	border: 1px white solid;
+	border-radius:8px;
+	padding:3px 15px;
+}
+.content fieldset{
+	/*Pengaturan kotak form*/
+	height:auto;
+	width:500px;
+	float:center;
+	margin-left:30%;
+	margin-right:30%;
+}
+.footer{
+	/*Pengaturan footer*/
+	margin-top:10px;
+}
