@@ -1,0 +1,72 @@
+*{
+	font-family:Bodoni Bd BT;
+	margin:10px auto;
+}
+.header h1, .footer{
+	text-align:center;
+	clear:both;
+}
+.content a {
+	display: block; /*biar yg aktif jadi sekotak*/
+	border-radius:5px;
+    text-decoration: none;
+	width:50px;
+	text-align:center;
+	border: 2pt white solid;
+}
+ul {
+	/*reset kondisi default dari tag ul*/
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: #111;
+}
+li {
+    float: left;
+}
+li a {
+	/*pengaturan tombol navbar*/
+    display: block; /*biar yg aktif jadi sekotak*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	margin:5px;
+    text-decoration: none;
+}
+table, th, td{
+	border : 1px black solid;
+	text-align:center;
+}
+.button{
+	/*Pengaturan tombol*/
+	margin-top:15px;
+	margin-left:45%;
+	text-align:right;
+	color:white;
+	background-color:#008CBA;
+	border: 1px white solid;
+	border-radius:8px;
+	padding:3px 15px;
+}
+.button:hover{
+	/*Pengaturan tombol ketika di-hover*/
+	border:1pt solid #008CBA;
+	color:#008CBA;
+	background-color:white;
+}
+.field{
+	margin:0px;
+}
+.content fieldset{
+	/*Pengaturan kotak form*/
+	text-align:left;
+	float:center;
+	margin-left:30%;
+	margin-right:30%;
+}
+.content input[type=text], select, option{
+	/*Pengaturan kotak isian*/
+	text-align:left;
+	width:100%;
+}
